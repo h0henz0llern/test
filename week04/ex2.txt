@@ -1,5 +1,0 @@
-Explanation of exercise 2.
-
-ex2.c creates 2^i (2 in power of i) processes.
-So, in first case, there are 2^3 = 8 processes.
-In second case, there are 2^5 = 32 processes.

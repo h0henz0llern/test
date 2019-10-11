@@ -1,3 +1,0 @@
-We have 8KB pages = 8 * 1024 = 2^13, so the number of offset bits is 13.
-And we have 2^16 addresses.
-Therefore, 2^16/2^13 = 2^3 (3 bits for page) = 8 entries for a single-level linear page table.
