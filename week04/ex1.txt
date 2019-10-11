@@ -1,0 +1,29 @@
+Explanation of exercise 1.
+
+Output:
+
+Hello from parent [49238 - 404]
+Hello from child [0 - 404]
+Hello from parent [49240 - 404]
+Hello from child [0 - 404]
+Hello from parent [49242 - 404]
+Hello from child [0 - 404]
+Hello from parent [49244 - 404]
+Hello from child [0 - 404]
+Hello from parent [49246 - 404]
+Hello from child [0 - 404]
+Hello from parent [49248 - 404]
+Hello from child [0 - 404]
+Hello from parent [49250 - 404]
+Hello from child [0 - 404]
+Hello from parent [49252 - 404]
+Hello from child [0 - 404]
+Hello from parent [49254 - 404]
+Hello from child [0 - 404]
+Hello from parent [49256 - 404]
+Hello from child [0 - 404]
+
+Explanation:
+
+Parent processes have PIDs of their children.
+Child processes have PIDs equal to 0, however children assigned to their parents by PPID (not shown in the output). PPIDs of children equals to previous PIDs of parents (PIDs before fork() ).

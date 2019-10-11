@@ -1,0 +1,1 @@
+Physical address is a real address of physical memory that could be accessed directly, while virtual address is a pointer to the memory space(which is physical) given by MMU.
